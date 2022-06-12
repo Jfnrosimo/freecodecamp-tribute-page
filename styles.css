@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+.column img {
+    margin-top: 12px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+        
+          
+    

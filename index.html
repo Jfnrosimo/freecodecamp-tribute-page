@@ -1,38 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <main id="main">
-      <h1 id="title" class="text-center">Nikola Tesla</h1>
-      <p>The life of an extraordinary man</p>
-      <div id="img-div" class="parent">
-        
-        <div class="flex-container">
-            <img class="inner-image portrait" src="./images/nikola1.jpg" />
-            <img class="inner-image landscape" src="./images/nikola3.png" />
-            <img class="inner-image portrait" />
-            <img class="inner-image landscape" />
-        <div></div>
-        <figcaption id="img-caption">
-        <p>Serbian-American engineer and physicist Nikola Tesla (1856-1943) made dozens of breakthroughs in the production, transmission and application of electric power. He invented the first alternating current (AC) motor and developed AC generation and transmission technology.</ p>
-        </figcaption>
-      </div>
-      
-      <section >
-        <label id="tribute-info">The life of Nikola Tesla:</label>
-        <ul>
-          <li>1859 - Nikola Tesla is born</li>
-          <li>1870 - Tesla's Brush With Death</li>
-          <li>1875 - Tesla Moves To Prague To Study Philosophy</li>
-          <li>1880 - Tesla Moves To Prague To Study Philosophy</li>
-          <li>1943 - Tesla's Death</li>
-        </ul>
-      <p>Discover more interesting stories of this extraordinary man on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">wikipedia entry</a>.</p>
-      </section>
-    </main>
-  </body>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Nikola Tesla Tribute Page</title>
+        <link href="./styles.css"/>
+    </head>
+    <style>
+    * {
+    box-sizing: border-box;
+    }
+    .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    }
+    </style>
+
+    <body>
+        <main id="main">
+            <h1 id="title" class="text-center">Nikola Tesla</h1>
+            <p>The life of an extraordinary man</p>
+
+            <div class="row"> 
+                <div class="column">
+                <img src="./images/nikola1.jpg" style="width:100%">
+                <img src="./images/nikola3.png" style="width:100%">
+                </div>
+                <div class="column">
+                <img src="./images/nikola4.jpg" style="width:100%">
+                <img src="./images/nikola2.jpg" style="width:100%">
+                </div>  
+            </div>
+
+            <figcaption id="img-caption">
+                <p>Serbian-American engineer and physicist Nikola Tesla (1856-1943) made dozens of breakthroughs in the production, transmission and application of electric power. He invented the first alternating current (AC) motor and developed AC generation and transmission technology.</p>
+            </figcaption>
+
+            <section >
+                <label id="tribute-info">The life of Nikola Tesla:</label>
+                <ul>
+                  <li>1859 - Nikola Tesla is born
+                    <ul><li class="year-description">Nikola Tesla is believed to have been born at midnight. During his birth, lightning struck during a summer storm. Born to a Serbian Family in Smiljan, Tesla was nicknamed `Child of the Storm`, by his aunt. That said, his mother replied to that comment by calling him `Child of the light`. He was born based on the conventional Slavonic rites, and his birth records show he was born on July 28th. Tesla was the fourth child in a family of five children. The family comprised</li></ul>
+                  </li>
+                  <li>1870 - Tesla's Brush With Death
+                    <ul><li class="year-description">Nikola Tesla moved to a place known as Karlovac to complete his high school. Three years later, he went back to Smiljan and shortly after his arrival; he contracted cholera. He was in hospital for close to one year, and he faced near-death circumstances.</li></ul>
+                  </li>
+                  <li>1875 - Tesla Enrolls In College
+                    <ul><li class="year-description">In 1875, Tesla enrolled to a Polytechnic based on a military scholarship. He was a disciplined student and achieved the highest grades possible while passing various exams. More so, he also started a cultural club and received a letter of commendation from the dean of the Technical Department. During his second year, he got into an argument with one his professors over the functionality of the Gramme dynamo.</li></ul>
+                  </li>
+                  <li>1880 - Tesla Moves To Prague To Study Philosophy
+                    <ul><li class="year-description">Tesla’s uncle collected money to help him relocate to Prague to finish his studies. He arrived late to enroll for classes, and his lack of competence in Greek and Czech meant that he did not qualify for the classes he wanted to take. Instead, he took up classes in Philosophy at the university, though he did not receive grades for the courses.</li></ul>
+                  </li>
+                  <li>1881 - Tesla Begins His Career As Chief Electrical Engineer
+                    <ul><li class="year-description">In 1881, he moved to Budapest in Hungary, to work for a telegraph company. Upon arriving, he noticed that the Budapest Telephone Exchange company was not in operation, so he worked at draftsman in another company. A few months later, the BTS Company was in operation, and he was given the position of chief electrical engineer. During his tenure, he introduced various operation upswings which improved the performance of the company.</li></ul>
+                  </li>
+                  <li>1882 - Tesla Goes To Work For Edison
+                    <ul><li class="year-description">In 1882, he found another job in Paris with a company referred to as the Continental Edison Company. He began working in a new industry by installing indoor lighting resources. His company had several divisions, and he worked in the section of the company that was responsible for lighting systems. At this company, he improved his electrical engineering prowess.</li></ul>
+                  </li>
+                  <li>1885 - Tesla Submits Some Of His First Patents
+                    <ul><li class="year-description">Nikola Tesla moved to a place known as Karlovac to complete his high school. Three years later, he went back to Smiljan and shortly after his arrival; he contracted cholera. He was in hospital for close to one year, and he faced near-death circumstances.</li></ul>
+                  </li>
+                  <li>1887 - Tesla Re-imagines The Electric Motor
+                    <ul><li class="year-description">In 1887, Tesla came up with an induction motor that was operated by alternating current, a form of power that was becoming common in Europe and the USA. This type of power provided various benefits, especially in long-distance power transmission. In particular, the motor was operated by a polyphase current, which produced a rotating magnetic field to operate the motor. </li></ul>
+                  </li>
+                  <li>1890 - Tesla Begins His Work On Wireless Power Transmission
+                    <ul><li class="year-description">After 1890, Tesla researched various approaches to transmitting power by inductive and capacitive coupling. This was through the use of AC voltages that were produced by his famous `Tesla coil.` He tried in many ways to come up with a wireless lighting system that was based on near field and capacitative coupling. He even performed various public demonstrations, where he would light up Geissler tubes to impress his audience. Tesla also spent close to well over a decade trying to come up with new solutions for lighting.</li></ul>
+                  </li>
+                  <li>1891 - Tesla Patents The Tesla Coil
+                    <ul><li class="year-description">In mid 1891, at the age of 35, he became a naturalized citizen of the US. In the same year, he also patented his famous Tesla Coil.</li></ul>
+                  </li>
+                  <li>1943 - Tesla's Death
+                    <ul><li class="year-description">In early 1943, at age 86, Tesla died in a Hotel Room in New York. He died alone, and his body was found by a maid who ignored a do not disturb sign on Tesla’s room. The assistant medical professional evaluated the body and determined the cause of death was related to coronary complications. A few days after the FBI ordered for the acquisition of his belongings, John G Trump was called in to evaluate his works. </li></ul>
+                  </li>
+                </ul>
+
+              <p>Discover more interesting stories of this extraordinary man on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">wikipedia entry</a>.</p>
+            </section>
+        </main> 
+    </body>
 </html>
