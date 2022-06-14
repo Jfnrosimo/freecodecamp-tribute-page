@@ -1,4 +1,4 @@
-This is a survey form.
+This is a tribute page for Nikola Tesla.
 
 It makes up the second project i made in freeCodeCamp's Responsive Web Design.
 
